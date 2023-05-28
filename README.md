@@ -1,2 +1,2 @@
 # Novel_Translator
-Iyakigo: A React app with Redux and Rapid API, translating Korean web-novels using GPT. Seamless reading experience.
+The "Iyakigo" is a React app built with Vite, Redux, and Rapid API. It utilizes GPT for translating Korean web-novels. Users can input the URL of a Korean web-novel and select the target language. The app uses Rapid API's MyMemory - Translation Memory API as an interface to GPT, providing efficient and accurate translations. The user-friendly interface allows real-time monitoring of translation progress and displays the translated version for a seamless reading experience. The Korean Web-Novel Translator combines technology, Redux state management, and the Rapid API for a powerful and convenient translation solution.
