@@ -26,7 +26,7 @@ const Hero = () => {
         <span className='orange_gradient '>OpenAI GPT-4</span>
       </h1>
       <h2 className='desc'>
-      Simplify your Korean web novel journey with Iyagiko, Clear and concise translations at your fingertips!
+      Simplify your Korean web novel journey with Iyagiko. Clear and concise translations at your fingertips!
       </h2>
     </header>
   );
