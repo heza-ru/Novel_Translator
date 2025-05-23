@@ -15,9 +15,10 @@ export const articleApi = createApi({
     }),
     endpoints: (builder) => ({
         getSummary: builder.query({
-            // encodeURIComponent() function encodes special characters that may be present in the parameter values
-            // If we do not properly encode these characters, they can be misinterpreted by the server and cause errors or unexpected behavior. Thus that RTK bug
-            query: (params) => `get?q=${params.articleUrl}&langpair=ko|en`,
+            query: (params) => ({
+                url: 'get',
+                params: { q: params.sourceText, langpair: 'ko|en' },
+            }),
         }),
     }),
 })
